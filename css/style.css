@@ -1,0 +1,271 @@
+/*spoon 01*/
+html, body{
+font-smoothing: antialiased;
+-moz-font-smoothing: antialiased;
+-webkit-font-smoothing: antialiased;
+-webkit-font-smoothing: subpixel-antialiased;
+}
+nav ul a,
+nav .brand-logo {
+  color: #0c0c0c;
+}
+.logo{
+  width: 114px;
+  height: 33px;
+}
+
+p{
+  letter-spacing: 1px;
+  line-height: 2rem;
+}
+p.grey-color{
+  letter-spacing: 1px;
+  font-size:18px;
+  color:#9b9b9b;
+}
+.button-collapse {
+  color: #ffffff;
+}
+.parallax-container-banner {
+  min-height: 728px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+.parallax-container-download {
+  min-height: 300px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+
+.parallax-container {
+  min-height: 300px;
+  line-height: 5;
+  height: auto;
+  color: #f3f5f4;
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+/*navbar dropdown bold*/
+.nav-fontb{
+  font-family:Raleway;
+  font-size:13px;
+  color:#0c0c0c;
+  letter-spacing:1.2px;
+}
+/*navbar dropdown normal*/
+.nav-font{
+  font-family:Raleway Regular;
+  font-size:13px;
+  color:#0c0c0c;
+  letter-spacing:1.2px;
+}
+/*navbar dropdown on right of logo*/
+.nav-logoright{
+  font-family:Raleway Bold;
+  font-size:13px;
+  color:#000000;
+  letter-spacing:1.2px;
+}
+/*frontpage content*/
+.front-center{
+  font-family:Raleway ExtraLight;
+  font-size:45px;
+  color:#0c0c0c;
+  letter-spacing:-0.7px;
+}
+.front-cbelow{
+  font-family:Raleway Medium;
+  font-size:16px;
+  color:#9b9b9b;
+  letter-spacing:1px;
+}
+/*why spoon heading*/
+.why-spoon{
+  font-family:Raleway Light;
+  font-size:38px;
+  color:#ffffff;
+  letter-spacing:0px;
+  text-align:center;
+}
+/*why spoon content*/
+.why-content{
+  
+  font-family:Raleway Bold;
+  font-size:20px;
+  color:#ffffff;
+  letter-spacing:2px;
+  text-align:center;
+}
+/*feature heading*/
+.features{
+  font-family:Raleway Regular;
+  font-size:38px;
+  color:#000000;
+  letter-spacing:3.53px;
+  text-align:center;
+}
+/*feature content*/
+.feat-word{
+  font-family:Raleway Regular;
+  font-size:18px;
+  color:#9b9b9b;
+  letter-spacing:1.56px;
+  line-height:32px;
+  text-align:center;
+}
+/*icon page*/
+.icon-head{
+  font-family:Raleway Bold;
+  font-size:20px;
+  color:#000000;
+  letter-spacing:1.73px;
+  line-height:32px;
+  text-align:center;
+}
+.icon-word{
+  font-family:Raleway Regular;
+  font-size:15px;
+  color:#000000;
+  letter-spacing:1.3px;
+  line-height:26px;
+  text-align:center;
+}
+/*download badge section*/
+.download{
+  font-family:Raleway Regular;
+  font-size:38px;
+  color:#ffffff;
+  letter-spacing:0px;
+  text-align:left;
+}
+/*about page*/
+.about{
+  font-family:Raleway SemiBold;
+  font-size:52px;
+  color:#ffffff;
+  letter-spacing:4.83px;
+  text-shadow:0px 0px 40px rgba(0,0,0,0.40);
+  text-align:right;
+}
+.about-content{
+  font-family:Raleway Regular;
+  font-size:18px;
+  color:#ffffff;
+  letter-spacing:1.67px;
+  line-height:26px;
+  text-align:right;
+}
+/*partner page*/
+.partner{
+  font-family:Raleway Regular;
+  font-size:38px;
+  color:#000000;
+  letter-spacing:3.53px;
+  text-align:center;
+}
+.partner-content{
+  font-family:Raleway Regular;
+  font-size:18px;
+  color:#000000;
+  letter-spacing:1.56px;
+  line-height:32px;
+  text-align:center;
+}
+/*footer page*/
+.footer-prop{
+  font-size:15px;
+  color:#ffffff;
+  letter-spacing:1.76px;
+  text-align:left;
+}
+
+.footer-color{
+  font-size: 12px;
+  color:#c4c4c4;
+  letter-spacing:1.11px;
+  text-align:left;
+}
+p.small{
+  line-height:1.5cm;
+}
+
+#id-black{
+  color: #000000;
+}
+section.blue_square{
+	background-image:url(../img/blue_square.png);
+}
+.launch{
+  background: url(../img/splash_bg.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size:auto;
+}
+
+.sectiion1{
+	background: url(../img/cup.png) no-repeat center ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 90% ;
+}
+
+.backgr{
+background-color: #f3f5f4 ;
+}
+
+.bgiim{
+background: url(../img/center.png) no-repeat center ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 80% ;
+}
+
+.anime-words{
+  font-size: 18px;
+}
+
+.social-icon {
+  display: inline; 
+  width: 25px;
+  height: 25px;
+  margin: 0 6px;
+}
+
+img .download{
+  width: 50%;
+}
+
+.bigger { font-size:140%; }
